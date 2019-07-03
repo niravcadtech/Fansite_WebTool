@@ -1,0 +1,47 @@
+/*article*/
+article{
+	width:600px;
+	float:left;
+	padding: 40px 20px;
+}
+
+article table {
+	margin-top: 20px;
+	border-collapse: collapse;
+	border: 3px solid green;
+	background-color: #b9e4c8;
+	color: #255c04;
+}
+
+article table thead{
+	font-weight: bold;
+	text-align: center;
+	border: 3px solid green;
+}
+
+article table thead td{
+	border-right: 3px solid green;
+}
+
+article table thead td:last-child{
+	border-right: none;
+}
+
+article table tbody td{
+	text-align: center;
+	border-right: 3px solid green;
+	padding:6px
+}
+
+article table tbody td:last-child{
+	border-right: none;
+}
+
+article h2{
+	margin-bottom: 20px;
+}
+article p{
+	margin:0;
+	padding:0;
+	text-align: justify;
+}

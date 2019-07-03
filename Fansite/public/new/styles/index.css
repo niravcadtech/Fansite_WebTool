@@ -1,0 +1,24 @@
+/*article*/
+article{
+	width:600px;
+	float:left;
+	padding: 40px 20px;
+}
+article dt {
+	font-weight: bold;
+	text-decoration: underline;
+	padding-top: 8px;
+}
+
+article dd {
+	padding: 5px;
+}
+
+article h2{
+	margin-bottom: 20px;
+}
+article p{
+	margin:0;
+	padding:0;
+	text-align: justify;
+}

@@ -1,0 +1,46 @@
+/*article*/
+article{
+	width:600px;
+	float:left;
+	padding: 40px 20px;
+}
+
+article figure.image_odd img{
+	width: 150px;
+	height: 150px;
+}
+
+article figure.image_even img{
+	width: 200px;
+	height: 200px;
+}
+
+article p{
+	margin-bottom: 50px;
+}
+article figure{
+	width: 250px;
+	height: 250px;
+	float:left;
+}
+article img {
+	margin: 0 auto;
+	padding:2px;
+	border:3px solid black;
+	transition: transform .2s;
+}
+
+article img:hover {
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+article h2{
+	margin-bottom: 20px;
+}
+article p{
+	margin:0;
+	padding:0;
+	text-align: justify;
+}
